@@ -1,0 +1,128 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+  margin: 20px 0;
+  line-height: 1.5;
+}
+
+.container {
+  padding: 0 15%;
+}
+/* Page Header */
+
+.header {
+  display: block;
+  background-color: white;
+}
+
+.header__title {
+  margin-top: 30px;
+  font-size: 3.5em;
+  color: #0c3d18;
+}
+
+.header__intro {
+  color: #0c3d18;
+  font-size: 1.3em;
+  padding: 2% 0;
+}
+
+.quote__link {
+  background-color: #0c3d18;
+  color: whitesmoke;
+  width: 100%;
+  height: 60px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.quote__link-text {
+  color: white;
+  text-decoration: none;
+  padding-right: 15%;
+}
+
+.quote__link-icon {
+  color: white;
+  margin-left: 4px;
+}
+
+/* Nav-bar */
+
+.nav-bar {
+  width: 100%;
+  height: 280px;
+  background-color: rgb(238, 237, 237);
+  padding: 50px 0;
+}
+
+.nav-bar__item {
+  padding-top: 10px;
+  font-size: 1.25em;
+}
+
+.nav-bar__item-link {
+  margin: 10px 20px 0 0;
+  color: #4f5852;
+}
+
+/* main */
+.main {
+  background-color: rgb(238, 237, 237);
+}
+
+.img {
+  background-color: white;
+  max-width: 100%;
+}
+
+.main-content {
+  padding-top: 2%;
+  padding-bottom: 5%;
+}
+
+.main-content__title {
+  margin-top: 50px;
+  display: block;
+  font-size: 3em;
+  font-weight: 1000;
+}
+
+.main-content__title-header {
+  display: block;
+  padding: 46px 0 20px 0;
+  font-size: 1.6em;
+  font-weight: 900;
+}
+
+.small-paragraph {
+  margin-top: 16px;
+}
+
+.main-content__awards-list,
+blockquote {
+  padding: 2% 5%;
+}
+
+/* Quotes-page */
+
+.quotes-list {
+  color: #4f5852;
+  padding: 25px 0 25px 35px;
+}
+
+.quotes-list-item {
+  padding-bottom: 15px;
+}
+
+.copyright {
+  height: 100px;
+  margin: 20px;
+  float: right;
+}
