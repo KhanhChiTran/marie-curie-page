@@ -50,8 +50,9 @@ body {
 }
 
 .quote__link-icon {
+  position: relative;
+  top: 2px;
   color: white;
-  margin-left: 4px;
 }
 
 /* Nav-bar */
